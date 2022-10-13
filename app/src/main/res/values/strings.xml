@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Burgers</string>
+    <string name="Macdonalds">Добре дошли в Макдоналдс!</string>
+    <string name="Pick">Изберете продуктю</string>
+    <string name="Pick2">Изберете продукт</string>
+    <string name="Bigmac"><b>БИГ МАК</b>\nСусамено хлебче с две парчета телешко месо и специален сос Биг Мак, прясна салата, сирене Чедър, резенчета кисела краставичка и лук.</string>
+    <string name="Chicken"><b>МАКЧИКЪН</b>\nВкусно златисто пилешко месо в топло, току-що изпечено сусамено хлебче, свежа салата и специален МакЧикън сос.</string>
+    <string name="Fish"><b>ФИЛЕ-О-ФИШ</b>\nТопла питка, филе от бяла риба, сос Тартар и сирене Чедър.</string>
+    <string name="favetext1">В любими са:</string>
+    <string name="cartbigmack">Биг мак: 0</string>
+    <string name="cartmcchicken">Макчикън: 0</string>
+    <string name="cartfish">Филе-о-фиш: 0</string>
+</resources>
