@@ -19,9 +19,16 @@ public class Cart extends AppCompatActivity {
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
-            tv_one.setText("Биг мак: " + extras.getInt("mack"));
-            tv_two.setText("Макчикън: " + extras.getInt("mcchicken"));
-            tv_three.setText("Филе-о-фиш: " + extras.getInt("fish"));
+            if (extras.getInt("mack") > 0) {
+                tv_one.setText("Биг мак: " + extras.getInt("mack"));
+            }
+            if (extras.getInt("mcchicken") > 0) {
+                tv_two.setText("Макчикън: " + extras.getInt("mcchicken"));
+            }
+            if (extras.getInt("fish") > 1) {
+                tv_three.setText("Филе-о-фиш: " + extras.getInt("fish"));
+            }
+
         }
 
 
